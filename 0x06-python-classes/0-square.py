@@ -3,8 +3,5 @@
 
 
 class Square:
-
+    """Empty class squatre"""
     pass
-
-
-my_square = Square()
