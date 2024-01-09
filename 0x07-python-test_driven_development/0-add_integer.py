@@ -8,10 +8,10 @@ def add_integer(a, b=98):
     """
         add_integer returns the sum of two integers
         Args:
-            a: first number.
-            b: second number.
+            a: first num.
+            b: second num.
         Returns:
-            sum of the two integers
+            the sum of the two numbers
     """
     if type(a) not in [int, float] or a is None:
         raise TypeError("a must be an integer")
