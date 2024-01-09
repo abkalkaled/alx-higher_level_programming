@@ -1,0 +1,28 @@
+def test_add_integer():
+    result = add_integer(5, 3)
+    assert result == 8, f"Test Case 1 failed: {result}"
+
+    result = add_integer(10, 5.5)
+    assert result == 15, f"Test Case 2 failed: {result}"
+
+    result = add_integer(7)
+    assert result == 105, f"Test Case 3 failed: {result}"
+
+    result = add_integer(2.5, 3.5)
+    assert result == 5, f"Test Case 4 failed: {result}"
+
+    try:
+        add_integer("a", 5)
+    except TypeError as e:
+        assert str(e) == "a must be an integer", f"Test Case 5 failed: {str(e)}"
+
+    try:
+        add_integer(8, "b")
+    except TypeError as e:
+        assert str(e) == "b must be an integer", f"Test Case 6 failed: {str(e)}"
+
+    print("All test cases passed!")
+
+# Run the test
+test_add_integer()
+
