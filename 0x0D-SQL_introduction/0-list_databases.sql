@@ -1,2 +1,2 @@
---script to list database
-SELECT *FROM
+-- script to list all mysql database
+SHOW DATABASES;
