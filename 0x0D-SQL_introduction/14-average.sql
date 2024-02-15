@@ -1,2 +1,2 @@
 -- Script for average
-SELECT AVG(*)
+SELECT AVG(score) AS average FROM second_table;
