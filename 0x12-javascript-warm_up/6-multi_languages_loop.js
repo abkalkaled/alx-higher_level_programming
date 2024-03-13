@@ -5,6 +5,6 @@ const programMssg = [
   'JavaScript is amazing'
 ];
 
-for (let i = 0; i < programMssg.Length; i++) {
+for (let i = 0; i < programMssg.length; i++) {
   console.log(programMssg[i]);
 }
